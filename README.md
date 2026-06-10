@@ -37,8 +37,6 @@ To ensure high-performance dashboard loading and decouple heavy business logic f
 ## 📉 Phase 3: Executive BI Application (Power BI)
 The engineered SQL views were imported natively into Power BI. The interface was intentionally designed across a **3-tier navigation layout** built using native Page Navigators for a seamless SaaS-like user experience. 
 
-*Note: Since GitHub cannot open a live Power BI data model directly, high-resolution visual previews of the multi-page application are embedded below. To interact with the underlying data formulas, DAX measures, and schemas, please download the `3_executive_market_intelligence_app.pbix` file from the repository root.*
-
 ### 1. Executive Overview: Performance & Inventory Trends
 ![Executive Overview](./page1.png)
 * Focuses on macro portfolio health. Implements advanced **DAX time-intelligence** tracking Year-over-Year (YoY) listing volumes and pricing variances against historical benchmarks.
